@@ -1,0 +1,6 @@
+#!/bin/bash
+docker run -it --rm \
+	--entrypoint glabels-3-batch
+	-v $PWD:/home/glabels \
+	mlgrm/glabels
+
