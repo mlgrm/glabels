@@ -25,4 +25,6 @@ RUN useradd -m glabels
 
 USER glabels
 
+WORKDIR /home/glabels
+
 ENTRYPOINT glabels-3
